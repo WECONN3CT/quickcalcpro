@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutzerklärung - QuickCalc Pro</title>
+    <meta name="description" content="Datenschutzerklärung für QuickCalc Pro - Wir sammeln keine Daten. Ihre Privatsphäre ist uns wichtig.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #007AFF;
+            --secondary: #5856D6;
+            --success: #34C759;
+            --danger: #FF3B30;
+            --dark: #1C1C1E;
+            --gray: #8E8E93;
+            --light-gray: #F2F2F7;
+            --white: #FFFFFF;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: var(--dark);
+            background: var(--white);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(20px);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            padding: 1rem 0;
+        }
+
+        .nav-simple {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #007AFF 0%, #5856D6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+
+        .back-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .content {
+            padding: 60px 0;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .last-updated {
+            text-align: center;
+            color: var(--gray);
+            margin-bottom: 3rem;
+            font-size: 0.95rem;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin: 3rem 0 1rem 0;
+            color: var(--dark);
+            border-bottom: 2px solid var(--light-gray);
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            margin: 2rem 0 1rem 0;
+            color: var(--dark);
+        }
+
+        .privacy-section {
+            background: var(--light-gray);
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+        }
+
+        .no-data-box {
+            background: linear-gradient(135deg, #34C759 0%, #30D158 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .no-data-box h3 {
+            color: white;
+            margin-top: 0;
+        }
+
+        ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin: 0.5rem 0;
+        }
+
+        .icon-list {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .icon-list li {
+            display: flex;
+            align-items: flex-start;
+            margin: 1rem 0;
+        }
+
+        .icon-list .icon {
+            font-size: 1.5rem;
+            margin-right: 1rem;
+            min-width: 30px;
+        }
+
+        .lang-toggle {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .lang-btn {
+            background: var(--light-gray);
+            border: 2px solid var(--primary);
+            padding: 10px 30px;
+            margin: 0 10px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .lang-btn.active {
+            background: var(--primary);
+            color: white;
+        }
+
+        .contact-info {
+            background: white;
+            border: 2px solid var(--light-gray);
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+        }
+
+        .contact-info a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .de { display: block; }
+        .en { display: none; }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav-simple">
+                <a href="index.html" class="logo">QuickCalc Pro</a>
+                <a href="index.html" class="back-link">← Zurück / Back</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container content">
+        <h1>
+            <span class="de">Datenschutzerklärung</span>
+            <span class="en">Privacy Policy</span>
+        </h1>
+        
+        <p class="last-updated">
+            <span class="de">Letzte Aktualisierung: 6. Januar 2025</span>
+            <span class="en">Last Updated: January 6, 2025</span>
+        </p>
+
+        <div class="lang-toggle">
+            <button class="lang-btn active" onclick="switchLang('de')">🇩🇪 Deutsch</button>
+            <button class="lang-btn" onclick="switchLang('en')">🇺🇸 English</button>
+        </div>
+
+        <!-- German Version -->
+        <div class="de">
+            <div class="no-data-box">
+                <h3>🔒 Wir sammeln KEINE Daten!</h3>
+                <p>QuickCalc Pro funktioniert vollständig offline und sammelt keinerlei persönliche Daten.</p>
+            </div>
+
+            <h2>1. Überblick</h2>
+            <p>QuickCalc Pro ist eine professionelle Einheitenrechner-App, die <strong>vollständig offline</strong> funktioniert und <strong>keine persönlichen Daten sammelt</strong>. Ihre Privatsphäre ist uns wichtig.</p>
+
+            <h2>2. Datensammlung</h2>
+            <div class="privacy-section">
+                <h3>Wir sammeln KEINE Daten:</h3>
+                <ul class="icon-list">
+                    <li><span class="icon">❌</span> Keine persönlichen Informationen</li>
+                    <li><span class="icon">❌</span> Keine Nutzungsdaten oder Analytics</li>
+                    <li><span class="icon">❌</span> Keine Standortdaten</li>
+                    <li><span class="icon">❌</span> Keine Kontaktdaten</li>
+                    <li><span class="icon">❌</span> Keine Gerätekennungen</li>
+                    <li><span class="icon">❌</span> Keine Crash-Reports an externe Server</li>
+                </ul>
+            </div>
+
+            <h2>3. Lokale Datenspeicherung</h2>
+            <div class="privacy-section">
+                <h3>Was wird NUR auf Ihrem Gerät gespeichert:</h3>
+                <ul class="icon-list">
+                    <li><span class="icon">✅</span> Ihre Umrechnungs-Verlauf (lokal)</li>
+                    <li><span class="icon">✅</span> Ihre Favoriten-Konversionen (lokal)</li>
+                    <li><span class="icon">✅</span> App-Einstellungen (lokal)</li>
+                    <li><span class="icon">✅</span> Währungskurse (offline, manuell)</li>
+                </ul>
+                <p><strong>Diese Daten verlassen niemals Ihr Gerät.</strong></p>
+            </div>
+
+            <h2>4. Internetverbindung</h2>
+            <ul>
+                <li>QuickCalc Pro funktioniert <strong>komplett offline</strong></li>
+                <li>Keine Serververbindungen erforderlich</li>
+                <li>Keine Datenübertragung an externe Dienste</li>
+                <li>Währungskurse werden manuell aktualisiert (optional)</li>
+            </ul>
+
+            <h2>5. Drittanbieter-Services</h2>
+            <div class="privacy-section">
+                <ul class="icon-list">
+                    <li><span class="icon">❌</span> Keine Analytics (Google, Firebase, etc.)</li>
+                    <li><span class="icon">❌</span> Keine Werbung</li>
+                    <li><span class="icon">❌</span> Keine Social Media Integration</li>
+                    <li><span class="icon">❌</span> Keine Cloud-Synchronisation</li>
+                    <li><span class="icon">❌</span> Keine externen APIs</li>
+                </ul>
+            </div>
+
+            <h2>6. Datensicherheit</h2>
+            <ul>
+                <li>Alle Daten bleiben auf Ihrem Gerät</li>
+                <li>Nutzen Sie iOS-Standard-Verschlüsselung</li>
+                <li>Bei App-Deinstallation werden alle Daten gelöscht</li>
+            </ul>
+
+            <h2>7. Kinder-Datenschutz</h2>
+            <ul>
+                <li>QuickCalc Pro sammelt keine Daten von Nutzern jeden Alters</li>
+                <li>Sicher für Kinder unter 13 Jahren</li>
+                <li>Entspricht COPPA-Richtlinien</li>
+            </ul>
+
+            <h2>8. Ihre Rechte</h2>
+            <p>Da wir keine Daten sammeln, gibt es:</p>
+            <ul>
+                <li>Keine Daten zum Löschen</li>
+                <li>Keine Daten zum Exportieren</li>
+                <li>Keine Daten zum Korrigieren</li>
+                <li>Vollständige Kontrolle über lokale Daten</li>
+            </ul>
+
+            <h2>9. Kontakt</h2>
+            <div class="contact-info">
+                <p>Bei Fragen zum Datenschutz:</p>
+                <p><strong>E-Mail:</strong> <a href="mailto:info@weconn3ct.app">info@weconn3ct.app</a></p>
+                <p><strong>Website:</strong> <a href="https://www.quickcalcpro.app">www.quickcalcpro.app</a></p>
+            </div>
+
+            <h2>10. Änderungen</h2>
+            <p>Änderungen dieser Datenschutzerklärung werden in App-Updates kommuniziert.</p>
+        </div>
+
+        <!-- English Version -->
+        <div class="en">
+            <div class="no-data-box">
+                <h3>🔒 We collect NO data!</h3>
+                <p>QuickCalc Pro works completely offline and collects no personal data whatsoever.</p>
+            </div>
+
+            <h2>1. Overview</h2>
+            <p>QuickCalc Pro is a professional unit converter app that works <strong>completely offline</strong> and <strong>collects no personal data</strong>. Your privacy matters to us.</p>
+
+            <h2>2. Data Collection</h2>
+            <div class="privacy-section">
+                <h3>We collect NO data:</h3>
+                <ul class="icon-list">
+                    <li><span class="icon">❌</span> No personal information</li>
+                    <li><span class="icon">❌</span> No usage data or analytics</li>
+                    <li><span class="icon">❌</span> No location data</li>
+                    <li><span class="icon">❌</span> No contact information</li>
+                    <li><span class="icon">❌</span> No device identifiers</li>
+                    <li><span class="icon">❌</span> No crash reports to external servers</li>
+                </ul>
+            </div>
+
+            <h2>3. Local Data Storage</h2>
+            <div class="privacy-section">
+                <h3>What is stored ONLY on your device:</h3>
+                <ul class="icon-list">
+                    <li><span class="icon">✅</span> Your conversion history (local)</li>
+                    <li><span class="icon">✅</span> Your favorite conversions (local)</li>
+                    <li><span class="icon">✅</span> App settings (local)</li>
+                    <li><span class="icon">✅</span> Currency rates (offline, manual)</li>
+                </ul>
+                <p><strong>This data never leaves your device.</strong></p>
+            </div>
+
+            <h2>4. Internet Connection</h2>
+            <ul>
+                <li>QuickCalc Pro works <strong>completely offline</strong></li>
+                <li>No server connections required</li>
+                <li>No data transmission to external services</li>
+                <li>Currency rates updated manually (optional)</li>
+            </ul>
+
+            <h2>5. Third-Party Services</h2>
+            <div class="privacy-section">
+                <ul class="icon-list">
+                    <li><span class="icon">❌</span> No analytics (Google, Firebase, etc.)</li>
+                    <li><span class="icon">❌</span> No advertising</li>
+                    <li><span class="icon">❌</span> No social media integration</li>
+                    <li><span class="icon">❌</span> No cloud synchronization</li>
+                    <li><span class="icon">❌</span> No external APIs</li>
+                </ul>
+            </div>
+
+            <h2>6. Data Security</h2>
+            <ul>
+                <li>All data remains on your device</li>
+                <li>Uses iOS standard encryption</li>
+                <li>All data deleted when app is uninstalled</li>
+            </ul>
+
+            <h2>7. Children's Privacy</h2>
+            <ul>
+                <li>QuickCalc Pro collects no data from users of any age</li>
+                <li>Safe for children under 13</li>
+                <li>Complies with COPPA guidelines</li>
+            </ul>
+
+            <h2>8. Your Rights</h2>
+            <p>Since we collect no data, there is:</p>
+            <ul>
+                <li>No data to delete</li>
+                <li>No data to export</li>
+                <li>No data to correct</li>
+                <li>Full control over local data</li>
+            </ul>
+
+            <h2>9. Contact</h2>
+            <div class="contact-info">
+                <p>For privacy questions:</p>
+                <p><strong>Email:</strong> <a href="mailto:info@weconn3ct.app">info@weconn3ct.app</a></p>
+                <p><strong>Website:</strong> <a href="https://www.quickcalcpro.app">www.quickcalcpro.app</a></p>
+            </div>
+
+            <h2>10. Changes</h2>
+            <p>Changes to this privacy policy will be communicated in app updates.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 QuickCalc Pro. All rights reserved.</p>
+            <p style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.8;">
+                <span class="de">Entwickelt mit ❤️ in Deutschland</span>
+                <span class="en">Made with ❤️ in Germany</span>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        function switchLang(lang) {
+            const deLangs = document.querySelectorAll('.de');
+            const enLangs = document.querySelectorAll('.en');
+            const langBtns = document.querySelectorAll('.lang-btn');
+            
+            if (lang === 'de') {
+                deLangs.forEach(el => el.style.display = 'block');
+                enLangs.forEach(el => el.style.display = 'none');
+                langBtns[0].classList.add('active');
+                langBtns[1].classList.remove('active');
+                document.documentElement.lang = 'de';
+            } else {
+                deLangs.forEach(el => el.style.display = 'none');
+                enLangs.forEach(el => el.style.display = 'block');
+                langBtns[1].classList.add('active');
+                langBtns[0].classList.remove('active');
+                document.documentElement.lang = 'en';
+            }
+        }
+    </script>
+</body>
+</html>

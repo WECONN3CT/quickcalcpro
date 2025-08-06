@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutzungsbedingungen - QuickCalc Pro</title>
+    <meta name="description" content="Nutzungsbedingungen und AGB für QuickCalc Pro - Professioneller Einheitenrechner mit DIN-Standards.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #007AFF;
+            --secondary: #5856D6;
+            --success: #34C759;
+            --danger: #FF3B30;
+            --warning: #FF9500;
+            --dark: #1C1C1E;
+            --gray: #8E8E93;
+            --light-gray: #F2F2F7;
+            --white: #FFFFFF;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: var(--dark);
+            background: var(--white);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(20px);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            padding: 1rem 0;
+        }
+
+        .nav-simple {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #007AFF 0%, #5856D6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+
+        .back-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .content {
+            padding: 60px 0;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .last-updated {
+            text-align: center;
+            color: var(--gray);
+            margin-bottom: 3rem;
+            font-size: 0.95rem;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin: 3rem 0 1rem 0;
+            color: var(--dark);
+            border-bottom: 2px solid var(--light-gray);
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            margin: 2rem 0 1rem 0;
+            color: var(--dark);
+        }
+
+        .terms-section {
+            background: var(--light-gray);
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+        }
+
+        .important-box {
+            background: var(--warning);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+        }
+
+        .important-box h3 {
+            color: white;
+            margin-top: 0;
+        }
+
+        ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin: 0.5rem 0;
+        }
+
+        .contact-info {
+            background: white;
+            border: 2px solid var(--light-gray);
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+        }
+
+        .contact-info a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .lang-toggle {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .lang-btn {
+            background: var(--light-gray);
+            border: 2px solid var(--primary);
+            padding: 10px 30px;
+            margin: 0 10px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .lang-btn.active {
+            background: var(--primary);
+            color: white;
+        }
+
+        .license-box {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+        }
+
+        .license-box h3 {
+            color: white;
+            margin-top: 0;
+        }
+
+        .toc {
+            background: white;
+            border: 1px solid var(--light-gray);
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+        }
+
+        .toc h3 {
+            margin-top: 0;
+        }
+
+        .toc ol {
+            margin-left: 1.5rem;
+        }
+
+        .toc a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .toc a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .de { display: block; }
+        .en { display: none; }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav-simple">
+                <a href="index.html" class="logo">QuickCalc Pro</a>
+                <a href="index.html" class="back-link">← Zurück / Back</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container content">
+        <h1>
+            <span class="de">Nutzungsbedingungen</span>
+            <span class="en">Terms of Service</span>
+        </h1>
+        
+        <p class="last-updated">
+            <span class="de">Letzte Aktualisierung: 6. Januar 2025</span>
+            <span class="en">Last Updated: January 6, 2025</span>
+        </p>
+
+        <div class="lang-toggle">
+            <button class="lang-btn active" onclick="switchLang('de')">🇩🇪 Deutsch</button>
+            <button class="lang-btn" onclick="switchLang('en')">🇺🇸 English</button>
+        </div>
+
+        <!-- Table of Contents -->
+        <div class="toc">
+            <h3>
+                <span class="de">Inhaltsverzeichnis</span>
+                <span class="en">Table of Contents</span>
+            </h3>
+            <ol class="de">
+                <li><a href="#scope">Geltungsbereich</a></li>
+                <li><a href="#partner">Vertragspartner</a></li>
+                <li><a href="#service">Leistungsumfang</a></li>
+                <li><a href="#license">Lizenz</a></li>
+                <li><a href="#restrictions">Einschränkungen</a></li>
+                <li><a href="#din">DIN-Standards Disclaimer</a></li>
+                <li><a href="#liability">Haftungsausschluss</a></li>
+                <li><a href="#warranty">Gewährleistung</a></li>
+                <li><a href="#pricing">Preise und Zahlung</a></li>
+                <li><a href="#changes">Änderungen</a></li>
+                <li><a href="#law">Anwendbares Recht</a></li>
+            </ol>
+            <ol class="en">
+                <li><a href="#scope">Scope</a></li>
+                <li><a href="#partner">Contract Partner</a></li>
+                <li><a href="#service">Service Scope</a></li>
+                <li><a href="#license">License</a></li>
+                <li><a href="#restrictions">Restrictions</a></li>
+                <li><a href="#din">DIN Standards Disclaimer</a></li>
+                <li><a href="#liability">Limitation of Liability</a></li>
+                <li><a href="#warranty">Warranty</a></li>
+                <li><a href="#pricing">Pricing and Payment</a></li>
+                <li><a href="#changes">Changes</a></li>
+                <li><a href="#law">Applicable Law</a></li>
+            </ol>
+        </div>
+
+        <!-- German Version -->
+        <div class="de">
+            <h2 id="scope">1. Geltungsbereich</h2>
+            <p>Diese Nutzungsbedingungen gelten für die Nutzung der iOS-App "QuickCalc Pro - Einheiten & DIN" (nachfolgend "App" genannt).</p>
+
+            <h2 id="partner">2. Vertragspartner</h2>
+            <div class="contact-info">
+                <p><strong>Entwickler:</strong> WECONN3CT GmbH</p>
+                <p><strong>Adresse:</strong> Frankenweg 109, 53604 Bad Honnef</p>
+                <p><strong>E-Mail:</strong> <a href="mailto:info@weconn3ct.app">info@weconn3ct.app</a></p>
+            </div>
+
+            <h2 id="service">3. Leistungsumfang</h2>
+            <div class="terms-section">
+                <p>QuickCalc Pro ist eine professionelle Einheitenrechner-App mit deutschen DIN-Standards Integration:</p>
+                <ul>
+                    <li>200+ Einheiten in 15 Kategorien</li>
+                    <li>Deutsche DIN-Normen Integration</li>
+                    <li>Wissenschaftlicher Taschenrechner</li>
+                    <li>Kettenrechnungen</li>
+                    <li>Offline-Funktionalität</li>
+                    <li>Verlauf und Favoriten</li>
+                </ul>
+            </div>
+
+            <h2 id="license">4. Lizenz</h2>
+            <div class="license-box">
+                <h3>Ihre Lizenz</h3>
+                <p>Mit dem Kauf erhalten Sie eine <strong>nicht-übertragbare, persönliche Lizenz</strong> für die Nutzung der App auf Ihren iOS-Geräten gemäß Apple's App Store Lizenzbestimmungen.</p>
+            </div>
+
+            <h2 id="restrictions">5. Einschränkungen</h2>
+            <div class="important-box">
+                <h3>⚠️ Sie dürfen NICHT:</h3>
+                <ul style="margin-left: 0; list-style-position: inside;">
+                    <li>Die App kopieren, verbreiten oder verkaufen</li>
+                    <li>Reverse Engineering betreiben</li>
+                    <li>Die App für kommerzielle Weiterverbreitung nutzen</li>
+                    <li>DIN-Standards Daten extrahieren oder weiterverkaufen</li>
+                </ul>
+            </div>
+
+            <h2 id="din">6. DIN-Standards Disclaimer</h2>
+            <div class="terms-section">
+                <ul>
+                    <li>DIN-Standards werden nach bestem Wissen implementiert</li>
+                    <li>Keine Garantie für absolute Korrektheit aller Werte</li>
+                    <li>Bei kritischen Anwendungen stets offizielle DIN-Dokumente konsultieren</li>
+                    <li>App dient als Hilfsmittel, nicht als rechtverbindliche Referenz</li>
+                </ul>
+            </div>
+
+            <h2 id="liability">7. Haftungsausschluss</h2>
+            <ul>
+                <li><strong>Berechnung:</strong> Keine Haftung für Berechnungsfehler</li>
+                <li><strong>Sachschäden:</strong> Keine Haftung für mittelbare Schäden</li>
+                <li><strong>Verfügbarkeit:</strong> Keine Garantie für ununterbrochene Verfügbarkeit</li>
+                <li><strong>Updates:</strong> Kein Anspruch auf kostenlose Updates</li>
+            </ul>
+
+            <h2 id="warranty">8. Gewährleistung</h2>
+            <div class="terms-section">
+                <ul>
+                    <li><strong>Funktionalität:</strong> App funktioniert wie beschrieben</li>
+                    <li><strong>Qualität:</strong> Professionelle Implementierung</li>
+                    <li><strong>Support:</strong> Best-effort Support via E-Mail</li>
+                    <li><strong>Ausschluss:</strong> Gewährleistung gemäß Apple App Store Bedingungen</li>
+                </ul>
+            </div>
+
+            <h2 id="pricing">9. Preise und Zahlung</h2>
+            <div class="license-box">
+                <ul style="margin-left: 0; list-style-position: inside;">
+                    <li><strong>Einmalzahlung:</strong> 2,99€ über Apple App Store</li>
+                    <li><strong>Keine Abos:</strong> Keine wiederkehrenden Kosten</li>
+                    <li><strong>Refunds:</strong> Gemäß Apple's Rückgaberichtlinien</li>
+                </ul>
+            </div>
+
+            <h2 id="changes">10. Änderungen</h2>
+            <p>Änderungen dieser Nutzungsbedingungen werden über App-Updates kommuniziert.</p>
+
+            <h2 id="law">11. Anwendbares Recht</h2>
+            <p>Es gilt deutsches Recht unter Ausschluss des UN-Kaufrechts.</p>
+        </div>
+
+        <!-- English Version -->
+        <div class="en">
+            <h2 id="scope">1. Scope</h2>
+            <p>These Terms of Service apply to the use of the iOS app "QuickCalc Pro - Units & DIN" (hereinafter "App").</p>
+
+            <h2 id="partner">2. Contract Partner</h2>
+            <div class="contact-info">
+                <p><strong>Developer:</strong> WECONN3CT GmbH</p>
+                <p><strong>Address:</strong> Frankenweg 109, 53604 Bad Honnef, Germany</p>
+                <p><strong>Email:</strong> <a href="mailto:info@weconn3ct.app">info@weconn3ct.app</a></p>
+            </div>
+
+            <h2 id="service">3. Service Scope</h2>
+            <div class="terms-section">
+                <p>QuickCalc Pro is a professional unit converter app with German DIN standards integration:</p>
+                <ul>
+                    <li>200+ units in 15 categories</li>
+                    <li>German DIN standards integration</li>
+                    <li>Scientific calculator</li>
+                    <li>Chain calculations</li>
+                    <li>Offline functionality</li>
+                    <li>History and favorites</li>
+                </ul>
+            </div>
+
+            <h2 id="license">4. License</h2>
+            <div class="license-box">
+                <h3>Your License</h3>
+                <p>With purchase, you receive a <strong>non-transferable, personal license</strong> to use the App on your iOS devices according to Apple's App Store License Agreement.</p>
+            </div>
+
+            <h2 id="restrictions">5. Restrictions</h2>
+            <div class="important-box">
+                <h3>⚠️ You may NOT:</h3>
+                <ul style="margin-left: 0; list-style-position: inside;">
+                    <li>Copy, distribute, or sell the App</li>
+                    <li>Perform reverse engineering</li>
+                    <li>Use the App for commercial redistribution</li>
+                    <li>Extract or resell DIN standards data</li>
+                </ul>
+            </div>
+
+            <h2 id="din">6. DIN Standards Disclaimer</h2>
+            <div class="terms-section">
+                <ul>
+                    <li>DIN standards implemented to the best of our knowledge</li>
+                    <li>No guarantee for absolute correctness of all values</li>
+                    <li>For critical applications, always consult official DIN documents</li>
+                    <li>App serves as tool, not as legally binding reference</li>
+                </ul>
+            </div>
+
+            <h2 id="liability">7. Limitation of Liability</h2>
+            <ul>
+                <li><strong>Calculations:</strong> No liability for calculation errors</li>
+                <li><strong>Property damage:</strong> No liability for indirect damages</li>
+                <li><strong>Availability:</strong> No guarantee for uninterrupted availability</li>
+                <li><strong>Updates:</strong> No claim to free updates</li>
+            </ul>
+
+            <h2 id="warranty">8. Warranty</h2>
+            <div class="terms-section">
+                <ul>
+                    <li><strong>Functionality:</strong> App works as described</li>
+                    <li><strong>Quality:</strong> Professional implementation</li>
+                    <li><strong>Support:</strong> Best-effort support via email</li>
+                    <li><strong>Exclusion:</strong> Warranty according to Apple App Store terms</li>
+                </ul>
+            </div>
+
+            <h2 id="pricing">9. Pricing and Payment</h2>
+            <div class="license-box">
+                <ul style="margin-left: 0; list-style-position: inside;">
+                    <li><strong>One-time payment:</strong> $2.99 via Apple App Store</li>
+                    <li><strong>No subscriptions:</strong> No recurring costs</li>
+                    <li><strong>Refunds:</strong> According to Apple's refund policies</li>
+                </ul>
+            </div>
+
+            <h2 id="changes">10. Changes</h2>
+            <p>Changes to these Terms of Service will be communicated via app updates.</p>
+
+            <h2 id="law">11. Applicable Law</h2>
+            <p>German law applies, excluding UN sales law.</p>
+        </div>
+
+        <!-- Apple Specific Section -->
+        <div style="margin-top: 4rem;">
+            <h2>
+                <span class="de">📱 Apple App Store Spezifische Bedingungen</span>
+                <span class="en">📱 Apple App Store Specific Terms</span>
+            </h2>
+            
+            <div class="terms-section">
+                <h3>App Store License Agreement</h3>
+                <p>
+                    <span class="de">Diese App unterliegt Apples Licensed Application End User License Agreement (EULA):</span>
+                    <span class="en">This app is subject to Apple's Licensed Application End User License Agreement (EULA):</span>
+                </p>
+                <p><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>
+                
+                <h3 style="margin-top: 2rem;">
+                    <span class="de">Wichtige Punkte</span>
+                    <span class="en">Key Points</span>
+                </h3>
+                <ul>
+                    <li>
+                        <span class="de"><strong>Installation:</strong> Lizenziert für die Nutzung auf Apple-Geräten, die Sie besitzen oder kontrollieren</span>
+                        <span class="en"><strong>Installation:</strong> Licensed for use on Apple devices you own or control</span>
+                    </li>
+                    <li>
+                        <span class="de"><strong>Einschränkungen:</strong> Nur persönliche, nicht-kommerzielle Nutzung</span>
+                        <span class="en"><strong>Restrictions:</strong> Personal, non-commercial use only</span>
+                    </li>
+                    <li>
+                        <span class="de"><strong>Updates:</strong> Apple kann Updates automatisch bereitstellen</span>
+                        <span class="en"><strong>Updates:</strong> Apple may deliver updates automatically</span>
+                    </li>
+                    <li>
+                        <span class="de"><strong>Beendigung:</strong> Lizenz endet bei Verstoß gegen die Bedingungen</span>
+                        <span class="en"><strong>Termination:</strong> License terminates if terms are violated</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Acceptance -->
+        <div style="background: var(--success); color: white; padding: 2rem; border-radius: 15px; margin-top: 3rem; text-align: center;">
+            <h3 style="color: white; margin-top: 0;">
+                <span class="de">✅ Akzeptanz</span>
+                <span class="en">✅ Acceptance</span>
+            </h3>
+            <p>
+                <span class="de">Durch das Herunterladen und Nutzen von QuickCalc Pro bestätigen Sie, dass Sie diese Nutzungsbedingungen und unsere Datenschutzerklärung gelesen, verstanden und akzeptiert haben.</span>
+                <span class="en">By downloading and using QuickCalc Pro, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy.</span>
+            </p>
+        </div>
+
+        <!-- Version Info -->
+        <div style="text-align: center; margin-top: 3rem; color: var(--gray);">
+            <p><strong>Version:</strong> 1.0</p>
+            <p>
+                <span class="de"><strong>Gültig ab:</strong> 6. Januar 2025</span>
+                <span class="en"><strong>Effective Date:</strong> January 6, 2025</span>
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 QuickCalc Pro. All rights reserved.</p>
+            <p style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.8;">
+                <span class="de">Entwickelt mit ❤️ in Deutschland</span>
+                <span class="en">Made with ❤️ in Germany</span>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        function switchLang(lang) {
+            const deLangs = document.querySelectorAll('.de');
+            const enLangs = document.querySelectorAll('.en');
+            const langBtns = document.querySelectorAll('.lang-btn');
+            
+            if (lang === 'de') {
+                deLangs.forEach(el => el.style.display = el.tagName === 'SPAN' ? 'inline' : 'block');
+                enLangs.forEach(el => el.style.display = 'none');
+                langBtns[0].classList.add('active');
+                langBtns[1].classList.remove('active');
+                document.documentElement.lang = 'de';
+            } else {
+                deLangs.forEach(el => el.style.display = 'none');
+                enLangs.forEach(el => el.style.display = el.tagName === 'SPAN' ? 'inline' : 'block');
+                langBtns[1].classList.add('active');
+                langBtns[0].classList.remove('active');
+                document.documentElement.lang = 'en';
+            }
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
